@@ -92,14 +92,7 @@ function cargar_mapa(){
         icon: icono,
         title: "Iglesia Villa Anita"
     });
-
-    var pin = new google.maps.Marker({
-        position: new google.maps.LatLng( -25.911075861285408, -57.11391831207706 ),
-        map: map,
-        icon: icono,
-        title: "Iglesia HM Acahay"
-    });
-   
+  
     var pin = new google.maps.Marker({
         position: new google.maps.LatLng( -25.46833568571581, -57.48437629716371 ),
         map: map,
@@ -153,7 +146,7 @@ function cargar_mapa(){
         position: new google.maps.LatLng( -25.297255651095984, -57.630434787579176 ),
         map: map,
         icon: icono,
-        title: "Iglesia Maranata De Los Hnos. Menonitas"
+        title: "Iglesia Maranata De Los Hnos. Menonitas - Asunción"
     });
 
     var pin = new google.maps.Marker({
@@ -163,9 +156,24 @@ function cargar_mapa(){
         title: "Iglesia Emanuel"
     });
 
+    var pin = new google.maps.Marker({
+        position: new google.maps.LatLng( -25.33943967617024, -57.589996792841255 ),
+        map: map,
+        icon: icono,
+        title: "Iglesia Peniel"
+    });
+
+    var pin = new google.maps.Marker({
+        position: new google.maps.LatLng( -25.39655258662675, -57.54748374865024 ),
+        map: map,
+        icon: icono,
+        title: "Iglesia Cristo Vive de Los Hermanos Menonitas"
+    });
+
+
     //* Fin de Region Central
 
-    //* Chaco Paraguayo
+    //* Inicio: Departamento de Boquerón
 
     var pin = new google.maps.Marker({
         position: new google.maps.LatLng( -22.364216782256516, -60.01903119125341 ),
@@ -173,6 +181,17 @@ function cargar_mapa(){
         icon: icono,
         title: "Comunidad Cristiana Roca De La Fe"
     });
+
+
+    //* Inicio: Departamento de Paraguarí
+
+    var pin = new google.maps.Marker({
+        position: new google.maps.LatLng( -25.911075861285408, -57.11391831207706 ),
+        map: map,
+        icon: icono,
+        title: "Iglesia HM Acahay"
+    });
+
 
     //* Misiones
     var pin = new google.maps.Marker({
