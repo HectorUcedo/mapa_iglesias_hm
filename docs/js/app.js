@@ -1,6 +1,6 @@
 // Nuestro código irá aquí
 var arregloPines = [];
-var icono = "images/marker.png"
+var icono = "images/pin.png"
 
 // Función para agregar pines
 // function agregarMarcador( location ){
