@@ -34,16 +34,15 @@ function cargar_mapa(){
 
     var myOptions = {
         center: new google.maps.LatLng( -25.320265167823855, -57.55294236520059 ), // Iglesia El Refugio
-        zoom:12,
         apTypeId: google.maps.MapTypeId.ROADMAP,
         icon: 'images/marker.png',
-        zoom: 12,
+        zoom: 10,
         center: myLatlng,
         mapTypeControl: false,
         disableDefaultUI: true,
         zoomControl: false,
         scrollwheel: true,
-        //styles: styles
+        styles: styles
     };
 
     map = new google.maps.Map( document.getElementById('gmap_canvas'), myOptions) 
