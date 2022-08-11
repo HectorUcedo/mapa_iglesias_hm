@@ -43,7 +43,7 @@ function cargar_mapa(){
         disableDefaultUI: true,
         zoomControl: false,
         scrollwheel: true,
-        //styles: styles
+        styles: styles
     };
 
     map = new google.maps.Map( document.getElementById('gmap_canvas'), myOptions) 
@@ -60,7 +60,7 @@ function cargar_mapa(){
     var pin = new google.maps.Marker({
         position: new google.maps.LatLng( -25.320264561690234, -57.55294504740739 ),
         map: map,
-        //icon: icono,
+        icon: icono,
         title: "El Refugio, Igl. Hermanos Menonitas\n Oficina de CEIPHM"
     });
 
