@@ -43,7 +43,7 @@ function cargar_mapa(){
         disableDefaultUI: true,
         zoomControl: false,
         scrollwheel: true,
-        styles: styles
+        //styles: styles
     };
 
     map = new google.maps.Map( document.getElementById('gmap_canvas'), myOptions) 
