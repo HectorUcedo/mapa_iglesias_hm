@@ -72,7 +72,7 @@ function cargar_mapa(){
         map: map,
         icon: icono,
         title: "Iglesia Maranata De Los Hnos. Menonitas - Asunción",
-        label: "1",
+        //label: "1",
     });
 
     var pin = new google.maps.Marker({
@@ -80,7 +80,7 @@ function cargar_mapa(){
         map: map,
         icon: icono,
         title: "Iglesia Cristiana de la Paz de los Hermanos Menonitas",
-        label: "2"
+        //label: "2"
     
     });
     var pin = new google.maps.Marker({
@@ -88,7 +88,7 @@ function cargar_mapa(){
         map: map,
         icon: icono,
         title: "Iglesia de los Hermanos Menonitas Roca de Paz",
-        label: "3"
+        //label: "3"
     });
 
     var pin = new google.maps.Marker({
@@ -96,7 +96,7 @@ function cargar_mapa(){
         map: map,
         icon: icono,
         title: "Iglesia Hermanos Menonitas Príncipe de Paz",
-        label: "4"
+        //label: "4"
     });
 
     //! Fin de TAVA 1
