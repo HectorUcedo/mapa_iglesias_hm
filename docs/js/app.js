@@ -297,7 +297,7 @@ function cargar_mapa(){
         position: new google.maps.LatLng( -25.500544993071735, -57.35710630081914 ),
         map: map,
         icon: icono,
-        title: "Iglesia Manantial de Vida de los Hermanos Menonitas - Caacupu"
+        title: "Iglesia Manantial de Vida de los Hermanos Menonitas - Itá"
     });
 
     // var pin = new google.maps.Marker({

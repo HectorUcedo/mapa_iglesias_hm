@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Iglesias HM</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      h1, h2, h3 {
+        text-align: center;
+      }
+    </style>
+
+    <style media="screen">
+      #gmap_canvas img{
+        max-width:none !important;
+        background:none!important
+      }
+    </style>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHyKIY3WFpY_yw1oGST0YbzGZM9Oi2PCM" async defer></script>
+
+  </head>
+  <body onload="cargar_mapa_ita()" class="p-3 m-0 border-0 bd-example">
+
+    <h3 style="color:orange;"><strong>Iglesias de Central</strong></h3>
+    <h2 style="color:orange;"><strong>TAVA 1</strong></h2>
+    <br>
+
+    <!-- Comienza  Grid cards-->
+
+    <!-- Inicia TAVA I -->
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Tenés un Propósito</h5>
+                <h6 class="card-subtitle mb-2 text-muted">1- Dios te Ama</h6>
+                <p class="card-text">Dios te ama incondicionalmente. <br>
+                    Él te creó con un propósito.<br>
+                    No sos un accidente ni una casualidad.<br>
+                    Dios quiere tener una relación especial y personal contigo.<br></p>
+
+                <br>
+
+                <h6 class="card-subtitle mb-2 text-muted">2- El pecado separa</h6>
+                <p class="card-text">El pecado nos separa de Dios y a consecuencia nos genera muchas situaciones difíciles en nuestras vidas. 
+                    La Biblia dice que “todos pecaron y están destituidos de la Gloria de Dios” (Romanos 3:23)</p>
+                
+                <h6 class="card-subtitle mb-2 text-muted">3- Dios lo solucionó</h6>
+                <p class="card-text">Dios mismo proveyó la solución para ese problema. Él envió a Jesús, 
+                    su único Hijo para morir por tus pecados y los míos. A través de su muerte y resurrección 
+                    recibimos el perdón de nuestros pecados y una nueva vida como hijos de Dios.
+                    La Biblia dice en San Juan 3:16: Porque de tal manera amó Dios al mundo, que ha dado a su único Hijo, 
+                    para que todo aquel que en él cree, no se pierde sino tenga vida eterna.
+                    </p>
+
+                <h6 class="card-subtitle mb-2 text-muted">4- Abrí tu corazón</h6>
+                <p class="card-text">Entonces ¿Qué necesito hacer yo? <br>
+                    Solamente creer, poner tu fe en Jesús y abrir tu corazón a Él.
+                    La Biblia dice en San Juan 1:12 “A todos los que le recibieron, a los que creen en su nombre, les dio potestad de ser hechos hijos de Dios” también Jesús dice en el libro de Apocalipsis 3:20 “He aquí, yo estoy en la puerta y llamo: si alguno oye mi voz y abre la puerta, entraré en él”
+                    </p>
+
+                <h6 class="card-subtitle mb-2 text-muted">¡Hoy podés empezar una nueva vida como hijo de Dios!</h6>
+                <p class="card-text">Hablá con Él diariamente. Él oye y también quiere hablar contigo
+                    Leé la Biblia para conocer los planes maravillosos que tiene para vos y los consejos para cada situación.
+                    </p>
+
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Si querés contar con alguien que te dé una mano, te escuche y te llame en alguna situación, 
+                    podés contactarte al 0982161400 <br>
+                    (595-21) 524-416 <br>
+                    Visita nuestra web <br>
+                    www.hermanosmenonitas.org  <br>
+                    https://www.instagram.com/juvenilhm/ <br>
+                    https://www.instagram.com/conexionjuvenilhm/ <br>
+                    
+                </p>
+                
+                <br>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    
+    <div class="container">
+
+        <h1 style="color:orange;">Iglesias CEIPHM</h1>
+        <h2>Localiza la Iglesia HM de Itá en el punto naranja</small></h2>
+        <br>
+              <div id='gmap_canvas' style='height:350px;width:100%;'></div>
+   
+      </div> <br><br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" height="240" 
+          src="" class="card-img-top" alt="...">   
+          <div class="card-body">
+            <h5 class="card-title">Iglesia Manantial de Vida</h5>
+            <p class="card-text">Dirección: Gral Marcial Samaniego</p>
+            <a href="https://www.instagram.com/mdv_juvenil_ita/" target="_blank" class="btn btn-primary ">Ir al Instagram</a>
+            <a href="https://www.google.com/maps/dir//Iglesia+Manantial+de+Vida+de+los+Hermanos+Menonitas/@-25.5004621,-57.3921263,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x945c49fe969c5cfb:0x75a6bca434488581!2m2!1d-57.3571069!2d-25.5005437" target="_blank" class="btn btn-success">Cómo llegar</a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>  
+  
+      <script src="js/app-ita.js" charset="utf-8"></script>
+
+  </body>
+</html>
