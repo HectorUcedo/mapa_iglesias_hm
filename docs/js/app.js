@@ -318,6 +318,14 @@ function cargar_mapa(){
 //! Fin de TAVA VI
 
 //* Inicio de TAVA VII
+var pin = new google.maps.Marker({
+    position: new google.maps.LatLng( -24.662256771537145, -56.43974412150593),
+    map: map,
+    icon: icono,
+    title: "Iglesia Tapiracuai"
+});
+
+//! Fin de TAVA VII
 
 //* Inicio de TAVA VIII
     var pin = new google.maps.Marker({
