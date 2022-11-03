@@ -38,7 +38,7 @@ function cargar_mapa(){
         center: new google.maps.LatLng( igle ), // Iglesia El Refugio
         apTypeId: google.maps.MapTypeId.ROADMAP,
         icon: 'images/marker.png',
-        zoom: 10,
+        zoom: 6,
         center: myLatlng,
         mapTypeControl: false,
         disableDefaultUI: true,
@@ -338,7 +338,7 @@ function cargar_mapa(){
     var pin = new google.maps.Marker({
         position: new google.maps.LatLng( -22.364216782256516, -60.01903119125341 ),
         map: map,
-        icon: icono_chaco,
+        icon: icono,
         title: "Comunidad Cristiana Roca De La Fe"
     });
 //! Fin de TAVA X
